@@ -1,0 +1,67 @@
+.services{
+   margin-left: 5cm;
+}
+.services .box-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(25rem, 7rem));
+    gap: 1.5rem;
+ }
+ 
+ .services .box-container .box{
+    padding:1rem 2rem;
+    text-align: center;
+    background: lightskyblue;
+    cursor: pointer;
+    width: 100%;
+ }
+ 
+ .services .box-container .box:hover{
+   background: rgb(232, 225, 225);
+ }
+ 
+ .services .box-container .box img{
+    height: 9rem;
+ }
+ 
+ .services .box-container .box h3{
+    color:white;
+    font-size: 2.8rem;
+    padding-top: 1rem;
+ }
+
+ /* marque */
+ .services .r{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(2cm, 3.2cm));
+   gap: 1.5rem;
+  
+}
+
+.services .r .box{
+   padding:3rem 2rem;
+   text-align: center;
+   background: lightskyblue;
+   cursor: pointer;
+   border-radius: 50px;
+}
+
+.services .r .box:hover{
+  background: rgb(232, 225, 225);
+}
+
+.services .r .box img{
+   height: 5rem;
+}
+
+.services .r .box h3{
+   color:white;
+   font-size:small;
+   padding-top: 0rem;
+   padding-left: 0%;
+   padding-right: 1px;
+}
+.btn{
+   height:30px ;
+   width:90px ;
+   padding-left: 0%;
+}

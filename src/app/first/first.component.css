@@ -1,0 +1,67 @@
+
+@media (min-width: 1200px){
+    .icons {
+      
+        padding-top: 10px;
+    }
+     }
+    
+     a {
+       color: #337ab7;
+       text-decoration: none;
+       padding-right: 52px;
+       padding-inline-start: 12px;
+       
+    }
+    
+    @media (min-width: 1200px){
+    .con{
+        width: 0.5px;
+        /* text-align: right; */
+        padding-top: 10px;
+    }
+    }
+    .btn btn-primary px-3{
+    margin-left: 0%;
+    padding-left: 0%;
+    }
+       .r{
+          font-weight: bold;
+        color: white;
+       }
+       a{
+          font-weight: bold;
+          color:black;
+          font-size: +4;
+       }
+    
+       .nav a:hover{
+          font-size:+70;
+          color: rgb(45, 144, 225);
+       }
+
+       .subDropdown{
+         display: none;
+         position:absolute;
+         left:80%;
+         top:0;
+       }
+
+       .sap{
+         color: red;
+         
+       }
+       .sap:hover + .subDropdown {
+         display: block;
+         
+       }
+       .the{
+         position: fixed;
+         bottom: 0;
+         right: 0;
+       }
+       .thee{
+         position: fixed;
+         bottom: 0;
+         right: 1;
+       }

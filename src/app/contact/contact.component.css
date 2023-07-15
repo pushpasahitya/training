@@ -1,0 +1,35 @@
+.services .r{
+   display: grid;
+   grid-template-columns: repeat(auto-fit, minmax(2cm, 3.2cm));
+   gap: 1.5rem;
+
+}
+
+.services .r .box{
+   padding:3rem 2rem;
+   text-align: center;
+   background: lightskyblue;
+   cursor: pointer;
+   border-radius: 50px;
+}
+
+.services .r .box:hover{
+  background: rgb(232, 225, 225);
+}
+
+.services .r .box img{
+   height: 5rem;
+}
+
+.services .r .box h3{
+   color:white;
+   font-size:small;
+   padding-top: 0rem;
+   padding-left: 0%;
+   padding-right: 1px;
+}
+.btn{
+   height:30px ;
+   width:90px ;
+   padding-left: 0%;
+}

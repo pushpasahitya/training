@@ -1,25 +1,27 @@
-span{
-    color: black;
+.services{
+   margin-left: 5cm;
 }
+
 .services .box-container{
     display: grid;
-    grid-template-columns: repeat(auto-fit, minmax(16rem, 1fr));
-    gap: 2.5rem;
+    grid-template-columns: repeat(auto-fit, minmax(30rem, 1rem));
+    gap: 5.5rem;
  }
  
  .services .box-container .box{
-    padding:3rem 2rem;
+    padding:1rem 2rem;
     text-align: center;
-    background:violet;
+    background: lightskyblue;
     cursor: pointer;
+    width: 100%;
  }
  
  .services .box-container .box:hover{
-    background: black;
+   background: rgb(232, 225, 225);
  }
  
  .services .box-container .box img{
-    height: 7rem;
+    height: 9rem;
  }
  
  .services .box-container .box h3{
@@ -27,34 +29,8 @@ span{
     font-size: 2.8rem;
     padding-top: 1rem;
  }
- .heading-title{
-   padding-left: 40%;
- }
- .myimage {
-   image-resolution: from-image 300dpi;
- }
- p{
-   font-size: medium;
- }
- h1{
-   padding-left: 40%;
- }
- .text-center text-lg-start bg-light text-muted{
-   width: 100%;
- }
- .text-center text-lg-start text-white{
-   width: 100%;
-   padding-left: 0px;
-   margin: 0PX;
-
- }
-
- .mb-5, .my-5{
-   /* margin-top: 0rem !important;
-   margin-bottom: 0rem !important;
-   margin-right: 0rem !important;
-   margin-left: 0rem !important; */
-   margin:0rem !important;
-   /* paddin */
-
- }
+.r{
+   border: 2px skyblue solid;
+   border-radius: 20px;
+}
+ 

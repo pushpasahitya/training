@@ -1,0 +1,13 @@
+.card{
+    padding:3rem 2rem;
+    text-align: center;
+    background: lightskyblue;
+    cursor: pointer;
+    padding-top: 0%;
+  
+  
+  }
+  .card:hover{
+    background: rgb(232, 225, 225);
+  
+  }
